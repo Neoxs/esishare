@@ -16,7 +16,7 @@ const Online = ({activeUsers}) => {
         <CardBody>
             <ListGroup>
                 { activeUsers.map( user => {
-                    return <ListGroupItem>{user.emoji} {user.username}</ListGroupItem>
+                    return <ListGroupItem >{user.emoji} {user.username}</ListGroupItem>
                 } ) }
             </ListGroup>
         </CardBody>
