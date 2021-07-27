@@ -56,7 +56,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://ibb.co/hLX5mz0)
 
 Here's a blank template to get started:
 **To avoid retyping too much info. Do a search and replace with your text editor for the following:**
@@ -64,9 +64,9 @@ Here's a blank template to get started:
 
 ### Built With
 
-- []()
-- []()
-- []()
+- [React](https://reactjs.org/)
+- [Flask](https://flask.palletsprojects.com/en/2.0.x/)
+- [SocketIO](https://socket.io/)
 
 <!-- GETTING STARTED -->
 
@@ -93,14 +93,13 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    npm install
    ```
-
-<!-- USAGE EXAMPLES -->
-
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+2. Run the project
+   ```sh
+   npm run serve
+   ```
+   ```sh
+   npm run start
+   ```
 
 <!-- ROADMAP -->
 
@@ -134,14 +133,6 @@ Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
 
 Project Link: [https://github.com/Neoxs/esishare](https://github.com/Neoxs/esishare)
 
-<!-- ACKNOWLEDGEMENTS -->
-
-## Acknowledgements
-
-- []()
-- []()
-- []()
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
@@ -156,4 +147,4 @@ Project Link: [https://github.com/Neoxs/esishare](https://github.com/Neoxs/esish
 [license-shield]: https://img.shields.io/github/license/Neoxs/repo.svg?style=for-the-badge
 [license-url]: https://github.com/Neoxs/repo/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/Neoxs
+[linkedin-url]: https://www.linkedin.com/in/mohamed-yacine-abdelkader-kharoubi-9955a8174/
