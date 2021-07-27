@@ -1,10 +1,11 @@
 '''server/app.py - main api app declaration'''
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, send_from_directory
 from flask_cors import CORS, cross_origin
 from flask_socketio import SocketIO, join_room
+import os
 
 '''Main wrapper for app creation'''
-app = Flask(__name__, static_folder='../build')
+app = Flask(__name__, static_folder='./build')
 socketio = SocketIO(app, cors_allowed_origins='*')
 CORS(app)
 
@@ -46,19 +47,15 @@ def handleDisc():
 # API routes
 ##
 
-@app.route('/api/items')
-def items():
-  '''Sample API route for data'''
-  return jsonify([{'title': 'A'}, {'title': 'B'}])
-
 ##
 # View route
 ##
-
-@app.route("/")
-def hello_world():
-    return "<p>Hello, World!</p>"
-
+@app.route('/', defaults={'path': ''})
+@app.route('/<path:path>')
+def index(path):
+  '''Return index.html for all non-api routes'''
+  #pylint: disable=unused-argument
+  return send_from_directory(app.static_folder, 'index.html')
 ##
 # Run App
 ##

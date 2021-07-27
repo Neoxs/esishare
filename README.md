@@ -87,16 +87,23 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    git clone https://github.com/Neoxs/esishare.git
    ```
-2. Install NPM packages
+2. Install NPM packages & PIP requirements
    ```sh
    npm install
    ```
-2. Run the project
+   ```sh
+   pip install requirements.txt
+   ```
+3. Run the project
    ```sh
    npm run serve
    ```
    ```sh
    npm run start
+   ```
+4. Run with docker
+   ```sh
+   docker-compose up
    ```
 
 <!-- ROADMAP -->
