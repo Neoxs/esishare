@@ -101,7 +101,8 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    npm run start
    ```
-4. Run with docker
+   
+4. OR run with docker
    ```sh
    docker-compose up
    ```
