@@ -164,7 +164,7 @@ Project Link: [https://github.com/Neoxs/esishare](https://github.com/Neoxs/esish
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/Neoxs/repo.svg?style=for-the-badge
-[contributors-url]: https://github.com/Neoxs/repo/graphs/contributors
+[contributors-url]: https://github.com/Neoxs/esishare/community_contributors
 [forks-shield]: https://img.shields.io/github/forks/Neoxs/repo.svg?style=for-the-badge
 [forks-url]: https://github.com/Neoxs/repo/network/members
 [stars-shield]: https://img.shields.io/github/stars/Neoxs/repo.svg?style=for-the-badge
