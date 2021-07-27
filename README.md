@@ -8,7 +8,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <h2>🚀</h2>
+  <span style="font-size: 2rem">🚀</span>
 
   <h3 align="center">ESI_SHARE</h3>
 
